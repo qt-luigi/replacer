@@ -28,7 +28,7 @@ Go is an open source programming language that makes it easy to build simple, re
 
 ## Notice
 
-This tool read and process ll file contents to memory. 
+This tool read and process all file contents to memory. 
 
 ## License
 
