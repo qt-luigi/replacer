@@ -1,6 +1,6 @@
-# replace
+# replacer
 
-replace replace specified oldstr to newstr in a file. A file is overwritten.
+replacer replace specified old string to new string in a file. A file is overwritten.
 
 ## Installation
 
@@ -17,7 +17,9 @@ $ cat sample.txt
 The Golang Programming Language
 
 Golang is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+
 $ replace sample.txt Golang Go
+
 $ cat sample.txt 
 The Go Programming Language
 
