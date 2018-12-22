@@ -18,7 +18,7 @@ The Golang Programming Language
 
 Golang is an open source programming language that makes it easy to build simple, reliable, and efficient software.
 
-$ replace sample.txt Golang Go
+$ replacer sample.txt Golang Go
 
 $ cat sample.txt 
 The Go Programming Language
