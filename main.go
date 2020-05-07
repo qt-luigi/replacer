@@ -20,9 +20,9 @@ func main() {
 		os.Exit(1)
 	}
 
-	oldstr := []byte(os.Args[2])
-	newstr := []byte(os.Args[3])
-	dst := bytes.Replace(src, oldstr, newstr, -1)
+	oldbyte := []byte(os.Args[2])
+	newbyte := []byte(os.Args[3])
+	dst := bytes.Replace(src, oldbyte, newbyte, -1)
 	if err := ioutil.WriteFile(filename, dst, 0666); err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		os.Exit(1)
